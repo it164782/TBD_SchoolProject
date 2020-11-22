@@ -279,6 +279,9 @@ public class Home extends javax.swing.JFrame {
             public void mouseExited(java.awt.event.MouseEvent evt) {
                 jPanel7MouseExited(evt);
             }
+            public void mousePressed(java.awt.event.MouseEvent evt) {
+                jPanel7MousePressed(evt);
+            }
         });
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
@@ -476,6 +479,11 @@ public class Home extends javax.swing.JFrame {
         // TODO add your handling code here:
         new Grades().show();
     }//GEN-LAST:event_jPanel3MousePressed
+
+    private void jPanel7MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel7MousePressed
+        // TODO add your handling code here:
+        new Settings().show();
+    }//GEN-LAST:event_jPanel7MousePressed
  public void setColor(JPanel panel)
  {
      panel.setBackground(new java.awt.Color(197, 197, 197));
