@@ -64,7 +64,7 @@ public class Home_Data extends javax.swing.JFrame {
                 .addContainerGap(66, Short.MAX_VALUE))
         );
 
-        jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder("Σύνδεση Χρήστη"));
+        jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder("Σύνδεση χρήστη"));
 
         jLabel3.setText("Username:");
 
